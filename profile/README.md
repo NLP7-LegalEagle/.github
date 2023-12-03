@@ -39,7 +39,7 @@ repository: https://github.com/NLP7-LegalEagle/LegalEagle-Dataset
 > 데이터를 비율에 맞추어 train, validation, test 데이터셋으로 분할 및 
 > Fine-tuning 형태에 맞추어 해당 데이터셋들의 형태를 전환
 
-![](https://gist.github.com/Jeonhui/6ccd0cb0144631ba47334922a3009c16/raw/971c4a8c44127ec632e2192e07ef5608fd7171b7/LegalEagleDatasetPreprocessing.png)  
+![](./images/LegalEagleDatasetPreprocessing.png)  
 데이터셋을 병합한 뒤, 데이터셋을 구분할 경우 데이터의 불균형이 생길 수 있으므로 각각의 데이터셋 별로 비율로 나누어 데이터셋을 분할하였고, 해당 데이터셋을 fine-tuning하기에 적합한 형태로 변환하는 과정을 수행
 
 
@@ -52,7 +52,7 @@ repository: https://github.com/NLP7-LegalEagle/LegalEagle-Dataset
 repository: https://github.com/NLP7-LegalEagle/LegalEagle-Model
 > 전처리 된 데이터셋을 사용하여 법률 분야에 특화 될 수 있도록 Llama-2 모델을 Fine-tuning하여 새로운 모델을 생성
 
-![](https://gist.github.com/Jeonhui/6ccd0cb0144631ba47334922a3009c16/raw/971c4a8c44127ec632e2192e07ef5608fd7171b7/LegalEagleFinetuning.png)  
+![](./images/LegalEagleFinetuning.png)  
 전처리된 데이터셋을 이용하여 하이퍼 파라미터를 조정하여 fine-tuning을 진행
 하이퍼 파라미터를 다양하게 하여 만든 여러 모델들과 원래 기본 모델인 Llama-2에 대해 평가를 진행하여 최종 모델을 선정
 
@@ -83,7 +83,7 @@ repository: https://github.com/NLP7-LegalEagle/LegalEagle-Server
 > 서버측에서 모델을 실행하고, 사용자에게 Text를 받아 해당 Text에 대한 모델의 결과를 
 > 사용자에게 전달해주기 위해 서버를 구현
 
-![](https://gist.github.com/Jeonhui/6ccd0cb0144631ba47334922a3009c16/raw/971c4a8c44127ec632e2192e07ef5608fd7171b7/LegalEagleServer.png)  
+![](./images/LegalEagleServer.png)  
 
 <details>
 <summary> 사용 패키지 </summary>
@@ -107,7 +107,7 @@ repository: https://github.com/NLP7-LegalEagle/LegalEagle-Server
 repository: https://github.com/NLP7-LegalEagle/LegalEagle-iOS
 > 모델에 대한 사용자 접근성을 향상 시키기 위해 사용자 환경에서 서버와 통신하는 iOS 애플리케이션을 개발
 
-![](https://gist.github.com/Jeonhui/6ccd0cb0144631ba47334922a3009c16/raw/971c4a8c44127ec632e2192e07ef5608fd7171b7/LegalEagleApplication.png)  
+![](./images/LegalEagleApplication.png)  
 
 <details>
 <summary> 사용 라이브러리 </summary>
