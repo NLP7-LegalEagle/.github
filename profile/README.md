@@ -1,7 +1,7 @@
 # Legal Eagle 🦅
 
-## 👥 NLP Team Project - Team 7 👥
-## BoMin LEE, Jeonhui LEE, Chanwoo LIM, Hyeongbin SEO, Sebin JEONG
+## 👥 NLP Team Project - Team 7 👥 - BoMin LEE, Jeonhui LEE, Chanwoo LIM, Hyeongbin SEO, Sebin JEONG
+
 
 ### Transformers
 -    BitsAndBytesConfig: model의 bit format을 임의로 지정하여 큰 gpu 자원이 필요치 않도록 함. 해당 모델에서는 NF4(정규화된 부동 소수점) 양자화를 사용하고, dtype을 float16으로 지정하여 계산이 빠르게 진행되도록 함.
