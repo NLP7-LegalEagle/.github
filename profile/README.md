@@ -25,6 +25,7 @@ LegalEagle에 사용할 데이터셋으로 범용성을 높이기 위해 영문�
 
 ### Judgement dataset
 16,306개의 사례와 승소자 쌍이 저장된 법률 데이터셋  
+
 😀 hf: https://huggingface.co/datasets/Meohong/Judgement_dataset  
 
 <br/>
