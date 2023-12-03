@@ -1,7 +1,37 @@
 # Legal Eagle 🦅
+### 사례에 대한 위법 여부 및 위법 사항 판별 모델 및 애플리케이션
 
-## 👥 NLP Team Project - Team 7 👥 - BoMin LEE, Jeonhui LEE, Chanwoo LIM, Hyeongbin SEO, Sebin JEONG
+<br/>
 
+## 👥 NLP Team Project - Team 7 👥 
+- BoMin LEE, Jeonhui LEE, Chanwoo LIM, Hyeongbin SEO, Sebin JEONG
+
+---
+
+## Dataset
+법률 관련 분야 데이터셋, 
+  
+### [CaseHOLD(Case Holdings On Legal Decisions)](https://huggingface.co/datasets/casehold/casehold)
+> 584,507개의 법률 관련 데이터셋 
+📄 paper: https://arxiv.org/abs/2104.08671
+
+<br/>
+### [Judgement dataset](https://huggingface.co/datasets/Meohong/Judgement_dataset)
+>
+
+
+---
+
+### Dataset Preprocessing
+> 
+
+---
+
+## Fine-tuning
+
+<br/>
+
+### 사용 패키지  
 
 ### Transformers
 -    BitsAndBytesConfig: model의 bit format을 임의로 지정하여 큰 gpu 자원이 필요치 않도록 함. 해당 모델에서는 NF4(정규화된 부동 소수점) 양자화를 사용하고, dtype을 float16으로 지정하여 계산이 빠르게 진행되도록 함.
@@ -15,9 +45,21 @@
 ### Trl
 -    Trl은 transformer 강화 학습을 제공하는 라이브러리로 해당 모델에서는 SFTTrainer(Supervised fine-tuning)를 이용.
 
-### Application
--    채팅을 통해 사례를 보내고, 예측 결과를 받아볼 수 있음.
--    Snapkit을 이용해 UI를 구현하고 네트워킹을 위해 Alamofire를 이용.
+---
+
+# Server
+- 
+
+Django, Flask, Transformer
+
+---
+
+# Application
+## 사용 라이브러리
+### Alamofire
+-
+### SnapKit
+- 
 
 
 <!--
