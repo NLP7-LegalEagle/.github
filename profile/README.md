@@ -15,6 +15,10 @@
 ### Trl
 -    Trl은 transformer 강화 학습을 제공하는 라이브러리로 해당 모델에서는 SFTTrainer(Supervised fine-tuning)를 이용.
 
+### Application
+-    채팅을 통해 사례를 보내고, 예측 결과를 받아볼 수 있음.
+-    Snapkit을 이용해 UI를 구현하고 네트워킹을 위해 Alamofire를 이용.
+
 
 <!--
 
