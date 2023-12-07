@@ -3,7 +3,7 @@
 > 법률 관련 데이터셋을 이용하여 Meta사의 Llama-2 모델에 대하여 법률 처리 분야에 대해 특화 될 수 있도록 Fine-tuning 진행하고, 해당 모델을 서버에 연결하여 서버, 애플리케이션 간 커뮤니케이션
 
 ## 👥 NLP Team Project - Team 7 👥 
-- BoMin LEE, Jeonhui LEE, Chanwoo LIM, Hyeongbin SEO, Sebin JEONG
+- BoMin LEE, Jeonhui LEE, Chanwoo LIM, Hyeongmin SEO, Sebin JEONG
 
 <br/>
 <br/>
@@ -66,7 +66,7 @@ repository: https://github.com/NLP7-LegalEagle/LegalEagle-Model
 -    TrainingArguments: training에 필요한 arguments를 지정
 
 ### Peft
--    Parameter-Efficient Fine-Tuning 소수의 모델 파라미터를 fine tuning 함으로 효율적 및 적은 컴퓨팅 자원으로 fine tuning이 가능해짐. LoRA, Prefix Tuning, P-Tuning 등 이러한 기법들을 쉽게 사용하게 해주는 라이브러리로, 해당 모델에는 LoRA 기법을 사용함.
+-    Parameter-Efficient Fine-Tuning 소수의 모델 파라미터를 fine tuning 함으로 효율적 및 적은 컴퓨팅 자원으로 fine tuning이 가능해짐. LoRA, Prefix Tuning, P-Tuning 등 이러한 기법들을 쉽게 사용하게 해주는 라이브러리로, 해당 모델에는 LoRA와 QLoRA 기법을 사용함.
 
 ### Trl
 -    Trl은 transformer 강화 학습을 제공하는 라이브러리로 해당 모델에서는 SFTTrainer(Supervised fine-tuning)를 이용.
